@@ -1,0 +1,1020 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanelFundo" alignment="0" pref="1013" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanelFundo" alignment="1" pref="674" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanelFundo">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="true"/>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JTextField" name="jTextFieldTituloFilme">
+          <Properties>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldTituloFilmeActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="190" y="80" width="340" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldTituloOriginalFilme">
+          <Properties>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="190" y="120" width="340" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Ubuntu" size="15" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="80" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="T&#xed;tulo Original"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="30" y="120" width="110" height="30"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Ubuntu" size="15" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="80" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="T&#xed;tulo"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="30" y="80" width="50" height="30"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Ubuntu" size="15" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="80" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Categoria"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="30" y="160" width="-1" height="30"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel7">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Ubuntu" size="15" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="80" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Classifica&#xe7;&#xe3;o Et&#xe1;ria"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="30" y="200" width="190" height="30"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel9">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Ubuntu" size="15" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="80" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Dura&#xe7;&#xe3;o"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="570" y="38" width="60" height="30"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel10">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Ubuntu" size="15" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="80" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Data Lan&#xe7;amento"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="570" y="70" width="140" height="50"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Ubuntu" size="15" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="80" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Elenco"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="30" y="230" width="70" height="40"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel8">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Ubuntu" size="15" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="80" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Sinopse"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="570" y="200" width="70" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="640" y="200" width="340" height="110"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextPane" name="jTextPaneSinopseFilme">
+              <Properties>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="190" y="240" width="340" height="100"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextPane" name="jTextPaneElencoFilme">
+              <Properties>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JTextField" name="jTextFieldDuracaoFilme">
+          <Properties>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldDuracaoFilmeActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="720" y="40" width="260" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="JcomboboxClassificacaoEtaria">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="6">
+                <StringItem index="0" value="Livre"/>
+                <StringItem index="1" value="10 Anos"/>
+                <StringItem index="2" value="14 Anos"/>
+                <StringItem index="3" value="16 Anos"/>
+                <StringItem index="4" value="18 Anos"/>
+                <StringItem index="5" value=" "/>
+              </StringArray>
+            </Property>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JcomboboxClassificacaoEtariaActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="190" y="200" width="200" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jComboBoxCategoria">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="472">
+                <StringItem index="0" value=" Abraham Lincoln"/>
+                <StringItem index="1" value=" Acidentes"/>
+                <StringItem index="2" value=" Administra&#xe7;&#xe3;o"/>
+                <StringItem index="3" value=" Ado&#xe7;&#xf5;es"/>
+                <StringItem index="4" value=" Adolescentes"/>
+                <StringItem index="5" value=" Adolf Hitler"/>
+                <StringItem index="6" value=" Aeron&#xe1;utica"/>
+                <StringItem index="7" value=" Agentes Secretos"/>
+                <StringItem index="8" value=" AIDS"/>
+                <StringItem index="9" value=" Albert Einstein"/>
+                <StringItem index="10" value=" Alco&#xf3;latras"/>
+                <StringItem index="11" value=" Alien&#xed;genas / Extraterrestre"/>
+                <StringItem index="12" value=" Alpinismo"/>
+                <StringItem index="13" value=" Amaz&#xf4;nia"/>
+                <StringItem index="14" value=" Amigos"/>
+                <StringItem index="15" value=" Amizades"/>
+                <StringItem index="16" value=" Amor"/>
+                <StringItem index="17" value=" Andr&#xf3;ide"/>
+                <StringItem index="18" value=" Animais"/>
+                <StringItem index="19" value=" Anivers&#xe1;rios"/>
+                <StringItem index="20" value=" Anjos"/>
+                <StringItem index="21" value=" Ano Novo"/>
+                <StringItem index="22" value=" An&#xf5;es"/>
+                <StringItem index="23" value=" Anti-her&#xf3;is"/>
+                <StringItem index="24" value=" Apocalipse"/>
+                <StringItem index="25" value=" Aquecimento Global"/>
+                <StringItem index="26" value=" Armas"/>
+                <StringItem index="27" value=" Arqueologia"/>
+                <StringItem index="28" value=" Artes Marciais"/>
+                <StringItem index="29" value=" Artistas"/>
+                <StringItem index="30" value=" Assaltos"/>
+                <StringItem index="31" value=" Assassinos"/>
+                <StringItem index="32" value=" Assassinos em S&#xe9;rie"/>
+                <StringItem index="33" value=" Astronautas"/>
+                <StringItem index="34" value=" Atentados Terroristas"/>
+                <StringItem index="35" value=" Atletas"/>
+                <StringItem index="36" value=" Autismo"/>
+                <StringItem index="37" value=" Avi&#xf5;es"/>
+                <StringItem index="38" value=" Ayrton Senna"/>
+                <StringItem index="39" value=" Baleias"/>
+                <StringItem index="40" value=" Ballet"/>
+                <StringItem index="41" value=" Bandas"/>
+                <StringItem index="42" value=" Barcos"/>
+                <StringItem index="43" value=" Baseados em Fatos Reais"/>
+                <StringItem index="44" value=" Baseados em Livros"/>
+                <StringItem index="45" value=" Baseados em Pe&#xe7;as de Teatro"/>
+                <StringItem index="46" value=" Baseados em Quadrinhos"/>
+                <StringItem index="47" value=" Baseball"/>
+                <StringItem index="48" value=" Basquete"/>
+                <StringItem index="49" value=" Batman"/>
+                <StringItem index="50" value=" Bebedeira"/>
+                <StringItem index="51" value=" Bicicletas"/>
+                <StringItem index="52" value=" B&#xed;blicos"/>
+                <StringItem index="53" value=" Bolsa de Valores"/>
+                <StringItem index="54" value=" Bombeiros"/>
+                <StringItem index="55" value=" Bope"/>
+                <StringItem index="56" value=" Boxe"/>
+                <StringItem index="57" value=" Brigas"/>
+                <StringItem index="58" value=" Brinquedos"/>
+                <StringItem index="59" value=" Bruxas"/>
+                <StringItem index="60" value=" Bullying"/>
+                <StringItem index="61" value=" Cachorros"/>
+                <StringItem index="62" value=" Ca&#xe7;a"/>
+                <StringItem index="63" value=" Cangaceiro"/>
+                <StringItem index="64" value=" Capitalismo"/>
+                <StringItem index="65" value=" Carnaval"/>
+                <StringItem index="66" value=" Carros"/>
+                <StringItem index="67" value=" Cartas"/>
+                <StringItem index="68" value=" Casamentos"/>
+                <StringItem index="69" value=" Cassinos"/>
+                <StringItem index="70" value=" Catolicismo"/>
+                <StringItem index="71" value=" Cavaleiros"/>
+                <StringItem index="72" value=" Cavernas"/>
+                <StringItem index="73" value=" C&#xe2;ncer"/>
+                <StringItem index="74" value=" Cegos"/>
+                <StringItem index="75" value=" Centauros"/>
+                <StringItem index="76" value=" Chefes"/>
+                <StringItem index="77" value=" Chico Xavier"/>
+                <StringItem index="78" value=" Chineses"/>
+                <StringItem index="79" value=" CIA"/>
+                <StringItem index="80" value=" Ciborgue"/>
+                <StringItem index="81" value=" Cientistas"/>
+                <StringItem index="82" value=" Cigarros"/>
+                <StringItem index="83" value=" Cinema"/>
+                <StringItem index="84" value=" Cinema Marginal"/>
+                <StringItem index="85" value=" Cinema Novo"/>
+                <StringItem index="86" value=" Circos"/>
+                <StringItem index="87" value=" Cirurgia"/>
+                <StringItem index="88" value=" Ci&#xfa;mes"/>
+                <StringItem index="89" value=" Cobi&#xe7;a"/>
+                <StringItem index="90" value=" Cobras"/>
+                <StringItem index="91" value=" Colegiais"/>
+                <StringItem index="92" value=" Comidas"/>
+                <StringItem index="93" value=" Comunismo"/>
+                <StringItem index="94" value=" Conspira&#xe7;&#xe3;o"/>
+                <StringItem index="95" value=" Copa do Mundo de Futebol"/>
+                <StringItem index="96" value=" Corridas"/>
+                <StringItem index="97" value=" Corrup&#xe7;&#xe3;o"/>
+                <StringItem index="98" value=" Corvos"/>
+                <StringItem index="99" value=" Cotidiano"/>
+                <StringItem index="100" value=" Cowboy"/>
+                <StringItem index="101" value=" Crian&#xe7;as"/>
+                <StringItem index="102" value=" Crimes"/>
+                <StringItem index="103" value=" Dan&#xe7;a"/>
+                <StringItem index="104" value=" DC Comics"/>
+                <StringItem index="105" value=" Defici&#xea;ncias"/>
+                <StringItem index="106" value=" Depress&#xe3;o"/>
+                <StringItem index="107" value=" Desaparecidos"/>
+                <StringItem index="108" value=" Desastres Naturais"/>
+                <StringItem index="109" value=" Desejos"/>
+                <StringItem index="110" value=" Desemprego"/>
+                <StringItem index="111" value=" Desigualdade"/>
+                <StringItem index="112" value=" Destino"/>
+                <StringItem index="113" value=" Destrui&#xe7;&#xe3;o"/>
+                <StringItem index="114" value=" Detetives"/>
+                <StringItem index="115" value=" Deus"/>
+                <StringItem index="116" value=" Diamantes"/>
+                <StringItem index="117" value=" Dinheiro"/>
+                <StringItem index="118" value=" Dinossauros"/>
+                <StringItem index="119" value=" Direito"/>
+                <StringItem index="120" value=" Disney"/>
+                <StringItem index="121" value=" Ditadura Militar"/>
+                <StringItem index="122" value=" Div&#xf3;rcios"/>
+                <StringItem index="123" value=" Doen&#xe7;as"/>
+                <StringItem index="124" value=" Dores"/>
+                <StringItem index="125" value=" Drag&#xf5;es"/>
+                <StringItem index="126" value=" Dr&#xe1;cula"/>
+                <StringItem index="127" value=" Drogas"/>
+                <StringItem index="128" value=" Dupla Personalidade"/>
+                <StringItem index="129" value=" Ecologia"/>
+                <StringItem index="130" value=" Economia"/>
+                <StringItem index="131" value=" Educa&#xe7;&#xe3;o"/>
+                <StringItem index="132" value=" Elfos"/>
+                <StringItem index="133" value=" Empreendedorismo"/>
+                <StringItem index="134" value=" Empresas"/>
+                <StringItem index="135" value=" Empres&#xe1;rios"/>
+                <StringItem index="136" value=" Energia Nuclear"/>
+                <StringItem index="137" value=" Epidemias"/>
+                <StringItem index="138" value=" Escravid&#xe3;o"/>
+                <StringItem index="139" value=" Escritores"/>
+                <StringItem index="140" value=" Espa&#xe7;o"/>
+                <StringItem index="141" value=" Esperan&#xe7;a"/>
+                <StringItem index="142" value=" Espi&#xf5;es"/>
+                <StringItem index="143" value=" Espiritismo"/>
+                <StringItem index="144" value=" Espiritualismo"/>
+                <StringItem index="145" value=" Esp&#xed;ritos"/>
+                <StringItem index="146" value=" Esportes"/>
+                <StringItem index="147" value=" Esquizofrenia"/>
+                <StringItem index="148" value=" Estudantes"/>
+                <StringItem index="149" value=" Evang&#xe9;licos"/>
+                <StringItem index="150" value=" Ex&#xe9;rcito"/>
+                <StringItem index="151" value=" Exorcismo"/>
+                <StringItem index="152" value=" Explora&#xe7;&#xe3;o Infantil"/>
+                <StringItem index="153" value=" &#xc9;picos"/>
+                <StringItem index="154" value=" Facebook"/>
+                <StringItem index="155" value=" Faculdades"/>
+                <StringItem index="156" value=" Fadas"/>
+                <StringItem index="157" value=" Falso Document&#xe1;rio"/>
+                <StringItem index="158" value=" Fam&#xed;lia"/>
+                <StringItem index="159" value=" Famosos"/>
+                <StringItem index="160" value=" Fantasmas e Assombra&#xe7;&#xf5;es"/>
+                <StringItem index="161" value=" Favelas"/>
+                <StringItem index="162" value=" Fazendas"/>
+                <StringItem index="163" value=" FBI"/>
+                <StringItem index="164" value=" Festas"/>
+                <StringItem index="165" value=" F&#xe9;rias"/>
+                <StringItem index="166" value=" Filhos"/>
+                <StringItem index="167" value=" Filosofia"/>
+                <StringItem index="168" value=" Fim do Mundo"/>
+                <StringItem index="169" value=" Finan&#xe7;as"/>
+                <StringItem index="170" value=" Florestas"/>
+                <StringItem index="171" value=" Fofoca"/>
+                <StringItem index="172" value=" Folclore"/>
+                <StringItem index="173" value=" Formigas"/>
+                <StringItem index="174" value=" Fot&#xf3;grafos"/>
+                <StringItem index="175" value=" Frankenstein"/>
+                <StringItem index="176" value=" Freud"/>
+                <StringItem index="177" value=" Fugas"/>
+                <StringItem index="178" value=" Funk"/>
+                <StringItem index="179" value=" Furac&#xf5;es"/>
+                <StringItem index="180" value=" Futebol"/>
+                <StringItem index="181" value=" Futebol Americano"/>
+                <StringItem index="182" value=" Futur&#xed;sticos"/>
+                <StringItem index="183" value=" Gal&#xe1;xia"/>
+                <StringItem index="184" value=" Gan&#xe2;ncia"/>
+                <StringItem index="185" value=" Gastronomia"/>
+                <StringItem index="186" value=" Gatos"/>
+                <StringItem index="187" value=" Gays"/>
+                <StringItem index="188" value=" G&#xe2;ngsters"/>
+                <StringItem index="189" value=" Geeks"/>
+                <StringItem index="190" value=" Gigantes"/>
+                <StringItem index="191" value=" Golf"/>
+                <StringItem index="192" value=" Golfinhos"/>
+                <StringItem index="193" value=" Golpistas"/>
+                <StringItem index="194" value=" Google"/>
+                <StringItem index="195" value=" Governo"/>
+                <StringItem index="196" value=" Gravidez"/>
+                <StringItem index="197" value=" Gravidez na Adolesc&#xea;ncia"/>
+                <StringItem index="198" value=" Guerra Civil"/>
+                <StringItem index="199" value=" Guerra do Golfo"/>
+                <StringItem index="200" value=" Guerra do Paraguai"/>
+                <StringItem index="201" value=" Guerra do Vietn&#xe3;"/>
+                <StringItem index="202" value=" Guerra Fria"/>
+                <StringItem index="203" value=" Guerras"/>
+                <StringItem index="204" value=" Guerreiros"/>
+                <StringItem index="205" value=" Hackers"/>
+                <StringItem index="206" value=" Halloween"/>
+                <StringItem index="207" value=" Heran&#xe7;as"/>
+                <StringItem index="208" value=" Hero&#xed;nas"/>
+                <StringItem index="209" value=" Histerias"/>
+                <StringItem index="210" value=" Hist&#xf3;ria"/>
+                <StringItem index="211" value=" Hockey"/>
+                <StringItem index="212" value=" Hollywood"/>
+                <StringItem index="213" value=" Holocausto"/>
+                <StringItem index="214" value=" Homem-Aranha"/>
+                <StringItem index="215" value=" Homossexualidade"/>
+                <StringItem index="216" value=" Humor Negro"/>
+                <StringItem index="217" value=" Idade da Pedra"/>
+                <StringItem index="218" value=" Idade M&#xe9;dia"/>
+                <StringItem index="219" value=" Idosos"/>
+                <StringItem index="220" value=" Igrejas"/>
+                <StringItem index="221" value=" Ilhas"/>
+                <StringItem index="222" value=" Illuminati"/>
+                <StringItem index="223" value=" Imigra&#xe7;&#xe3;o"/>
+                <StringItem index="224" value=" Imperadores"/>
+                <StringItem index="225" value=" Ind&#xed;genas"/>
+                <StringItem index="226" value=" Infidelidade"/>
+                <StringItem index="227" value=" Inform&#xe1;tica"/>
+                <StringItem index="228" value=" Inquisi&#xe7;&#xe3;o"/>
+                <StringItem index="229" value=" Insetos"/>
+                <StringItem index="230" value=" Intelig&#xea;ncia"/>
+                <StringItem index="231" value=" Internet"/>
+                <StringItem index="232" value=" Investiga&#xe7;&#xe3;o"/>
+                <StringItem index="233" value=" Iraque"/>
+                <StringItem index="234" value=" Irm&#xe3;os"/>
+                <StringItem index="235" value=" &#xcd;ndio"/>
+                <StringItem index="236" value=" James Bond - Agente 007"/>
+                <StringItem index="237" value=" Japoneses"/>
+                <StringItem index="238" value=" Jazz"/>
+                <StringItem index="239" value=" Jesus"/>
+                <StringItem index="240" value=" Jogos"/>
+                <StringItem index="241" value=" Jogos / Games / Videogames"/>
+                <StringItem index="242" value=" Jornalismo"/>
+                <StringItem index="243" value=" Judeus"/>
+                <StringItem index="244" value=" Karat&#xea;"/>
+                <StringItem index="245" value=" Kung Fu"/>
+                <StringItem index="246" value=" Kurt Cobain"/>
+                <StringItem index="247" value=" Ladr&#xf5;es"/>
+                <StringItem index="248" value=" Las Vegas"/>
+                <StringItem index="249" value=" Lealdade"/>
+                <StringItem index="250" value=" Liberdade"/>
+                <StringItem index="251" value=" Li&#xe7;&#xe3;o de Vida"/>
+                <StringItem index="252" value=" Lideran&#xe7;a"/>
+                <StringItem index="253" value=" Literatura"/>
+                <StringItem index="254" value=" Lobisomem"/>
+                <StringItem index="255" value=" Loucura"/>
+                <StringItem index="256" value=" Lutas"/>
+                <StringItem index="257" value=" Macacos"/>
+                <StringItem index="258" value=" Maconha"/>
+                <StringItem index="259" value=" Ma&#xe7;onaria"/>
+                <StringItem index="260" value=" Magias"/>
+                <StringItem index="261" value=" Magos"/>
+                <StringItem index="262" value=" Maldi&#xe7;&#xf5;es"/>
+                <StringItem index="263" value=" Manias"/>
+                <StringItem index="264" value=" Manifesta&#xe7;&#xf5;es"/>
+                <StringItem index="265" value=" Mar"/>
+                <StringItem index="266" value=" Marte"/>
+                <StringItem index="267" value=" Marvel"/>
+                <StringItem index="268" value=" Masoquismo"/>
+                <StringItem index="269" value=" Matem&#xe1;tica"/>
+                <StringItem index="270" value=" M&#xe1;fia"/>
+                <StringItem index="271" value=" M&#xe1;gicos"/>
+                <StringItem index="272" value=" M&#xe3;es"/>
+                <StringItem index="273" value=" Medicina"/>
+                <StringItem index="274" value=" Medievais"/>
+                <StringItem index="275" value=" Meio Ambiente"/>
+                <StringItem index="276" value=" Mentiras"/>
+                <StringItem index="277" value=" Mercen&#xe1;rios"/>
+                <StringItem index="278" value=" Milagres"/>
+                <StringItem index="279" value=" Milion&#xe1;rios"/>
+                <StringItem index="280" value=" Militares"/>
+                <StringItem index="281" value=" Mis&#xe9;ria"/>
+                <StringItem index="282" value=" Mitologia Eg&#xed;pcia"/>
+                <StringItem index="283" value=" Mitologia Grega"/>
+                <StringItem index="284" value=" Mitologia N&#xf3;rdica"/>
+                <StringItem index="285" value=" Mitologia Romana"/>
+                <StringItem index="286" value=" Mitol&#xf3;gicos"/>
+                <StringItem index="287" value=" M&#xed;dia"/>
+                <StringItem index="288" value=" MMA"/>
+                <StringItem index="289" value=" Moda"/>
+                <StringItem index="290" value=" Modelos"/>
+                <StringItem index="291" value=" Monstros"/>
+                <StringItem index="292" value=" Montanhas"/>
+                <StringItem index="293" value=" Morcegos"/>
+                <StringItem index="294" value=" Mortes"/>
+                <StringItem index="295" value=" Mortos"/>
+                <StringItem index="296" value=" Mortos-Vivos"/>
+                <StringItem index="297" value=" Motivacionais"/>
+                <StringItem index="298" value=" Motocicletas"/>
+                <StringItem index="299" value=" Motos"/>
+                <StringItem index="300" value=" Mu&#xe7;ulmanos"/>
+                <StringItem index="301" value=" Mudos"/>
+                <StringItem index="302" value=" Mulheres"/>
+                <StringItem index="303" value=" Mutantes"/>
+                <StringItem index="304" value=" M&#xfa;mias"/>
+                <StringItem index="305" value=" M&#xfa;sica"/>
+                <StringItem index="306" value=" Nacionais"/>
+                <StringItem index="307" value=" Namoro"/>
+                <StringItem index="308" value=" Napole&#xe3;o"/>
+                <StringItem index="309" value=" NASA"/>
+                <StringItem index="310" value=" Nata&#xe7;&#xe3;o"/>
+                <StringItem index="311" value=" Natal"/>
+                <StringItem index="312" value=" Natureza"/>
+                <StringItem index="313" value=" Nazismo"/>
+                <StringItem index="314" value=" Nelson Mandela"/>
+                <StringItem index="315" value=" Nerds"/>
+                <StringItem index="316" value=" Neve"/>
+                <StringItem index="317" value=" Ninjas"/>
+                <StringItem index="318" value=" Noir"/>
+                <StringItem index="319" value=" Noivas"/>
+                <StringItem index="320" value=" Obsess&#xf5;es"/>
+                <StringItem index="321" value=" Oceanos"/>
+                <StringItem index="322" value=" Ogros"/>
+                <StringItem index="323" value=" Olimp&#xed;adas"/>
+                <StringItem index="324" value=" Osama Bin Laden"/>
+                <StringItem index="325" value=" &#xd3;vnis"/>
+                <StringItem index="326" value=" Padre"/>
+                <StringItem index="327" value=" Pais"/>
+                <StringItem index="328" value=" Palha&#xe7;os"/>
+                <StringItem index="329" value=" Papai Noel"/>
+                <StringItem index="330" value=" Paranormais"/>
+                <StringItem index="331" value=" Paris"/>
+                <StringItem index="332" value=" Par&#xf3;dias"/>
+                <StringItem index="333" value=" Pastor"/>
+                <StringItem index="334" value=" Patins"/>
+                <StringItem index="335" value=" P&#xe1;scoa"/>
+                <StringItem index="336" value=" P&#xe1;ssaros"/>
+                <StringItem index="337" value=" Perdidos"/>
+                <StringItem index="338" value=" Persegui&#xe7;&#xe3;o"/>
+                <StringItem index="339" value=" Pescadores"/>
+                <StringItem index="340" value=" Petr&#xf3;leo"/>
+                <StringItem index="341" value=" Piratas"/>
+                <StringItem index="342" value=" Pistoleiros"/>
+                <StringItem index="343" value=" Planos"/>
+                <StringItem index="344" value=" Pobreza"/>
+                <StringItem index="345" value=" Poesia"/>
+                <StringItem index="346" value=" Poker"/>
+                <StringItem index="347" value=" Policiais"/>
+                <StringItem index="348" value=" Pol&#xed;ticos"/>
+                <StringItem index="349" value=" Porcos"/>
+                <StringItem index="350" value=" Praias"/>
+                <StringItem index="351" value=" Preconceitos"/>
+                <StringItem index="352" value=" Presidente Lula"/>
+                <StringItem index="353" value=" Presidentes"/>
+                <StringItem index="354" value=" Preto e Branco"/>
+                <StringItem index="355" value=" Pr&#xe9;-Hist&#xf3;ria"/>
+                <StringItem index="356" value=" Primeira Guerra Mundial"/>
+                <StringItem index="357" value=" Princesas"/>
+                <StringItem index="358" value=" Prisioneiros"/>
+                <StringItem index="359" value=" Pris&#xf5;es"/>
+                <StringItem index="360" value=" Pr&#xed;ncipes"/>
+                <StringItem index="361" value=" Procuras"/>
+                <StringItem index="362" value=" Professores"/>
+                <StringItem index="363" value=" Propostas"/>
+                <StringItem index="364" value=" Psicologia"/>
+                <StringItem index="365" value=" Psicopatas"/>
+                <StringItem index="366" value=" Publicidade e Propaganda"/>
+                <StringItem index="367" value=" Purgat&#xf3;rio"/>
+                <StringItem index="368" value=" Qu&#xed;mica"/>
+                <StringItem index="369" value=" Racismo"/>
+                <StringItem index="370" value=" Rainhas"/>
+                <StringItem index="371" value=" Realidade Virtual"/>
+                <StringItem index="372" value=" Redes Sociais"/>
+                <StringItem index="373" value=" Refilmagem"/>
+                <StringItem index="374" value=" Reis"/>
+                <StringItem index="375" value=" Relacionamentos"/>
+                <StringItem index="376" value=" Religiosos"/>
+                <StringItem index="377" value=" Rel&#xed;quias"/>
+                <StringItem index="378" value=" Resgate"/>
+                <StringItem index="379" value=" Ressurrei&#xe7;&#xe3;o"/>
+                <StringItem index="380" value=" Revolu&#xe7;&#xe3;o Francesa"/>
+                <StringItem index="381" value=" Revolu&#xe7;&#xf5;es"/>
+                <StringItem index="382" value=" Rio de Janeiro"/>
+                <StringItem index="383" value=" Riquezas"/>
+                <StringItem index="384" value=" Rivais"/>
+                <StringItem index="385" value=" Rob&#xf4;s"/>
+                <StringItem index="386" value=" Rock and Roll"/>
+                <StringItem index="387" value=" Roma"/>
+                <StringItem index="388" value=" Roubo a Banco"/>
+                <StringItem index="389" value=" Roubos"/>
+                <StringItem index="390" value=" Rugby"/>
+                <StringItem index="391" value=" Saddam Hussein"/>
+                <StringItem index="392" value=" Samba"/>
+                <StringItem index="393" value=" Samurai"/>
+                <StringItem index="394" value=" S&#xe1;tiras"/>
+                <StringItem index="395" value=" Sedu&#xe7;&#xe3;o"/>
+                <StringItem index="396" value=" Segunda Guerra Mundial"/>
+                <StringItem index="397" value=" Separa&#xe7;&#xe3;o"/>
+                <StringItem index="398" value=" Sequestros"/>
+                <StringItem index="399" value=" Sereias"/>
+                <StringItem index="400" value=" Serial Killers"/>
+                <StringItem index="401" value=" Shows"/>
+                <StringItem index="402" value=" S&#xed;ndrome de Down"/>
+                <StringItem index="403" value=" Skate"/>
+                <StringItem index="404" value=" Sobrenaturais"/>
+                <StringItem index="405" value=" Sobreviv&#xea;ncia"/>
+                <StringItem index="406" value=" Socialismo"/>
+                <StringItem index="407" value=" Sociedades Secretas"/>
+                <StringItem index="408" value=" Sociologia"/>
+                <StringItem index="409" value=" Sogras"/>
+                <StringItem index="410" value=" Solid&#xe3;o"/>
+                <StringItem index="411" value=" Sonhos"/>
+                <StringItem index="412" value=" Suic&#xed;dios"/>
+                <StringItem index="413" value=" Super-Her&#xf3;is"/>
+                <StringItem index="414" value=" Supera&#xe7;&#xe3;o"/>
+                <StringItem index="415" value=" Superman"/>
+                <StringItem index="416" value=" Superpoderes"/>
+                <StringItem index="417" value=" Surdos"/>
+                <StringItem index="418" value=" Surf"/>
+                <StringItem index="419" value=" Tango"/>
+                <StringItem index="420" value=" Teatros"/>
+                <StringItem index="421" value=" Tecnologia"/>
+                <StringItem index="422" value=" Terremotos"/>
+                <StringItem index="423" value=" Terrorismo"/>
+                <StringItem index="424" value=" Tesouros"/>
+                <StringItem index="425" value=" Torcidas Organizadas"/>
+                <StringItem index="426" value=" Tortura"/>
+                <StringItem index="427" value=" Touradas"/>
+                <StringItem index="428" value=" Toureiros"/>
+                <StringItem index="429" value=" Trabalho"/>
+                <StringItem index="430" value=" Trai&#xe7;&#xe3;o"/>
+                <StringItem index="431" value=" Transplantes"/>
+                <StringItem index="432" value=" Trapaceiros"/>
+                <StringItem index="433" value=" Tr&#xe1;fico de Drogas"/>
+                <StringItem index="434" value=" Tr&#xe2;nsito"/>
+                <StringItem index="435" value=" Tri&#xe2;ngulos Amorosos"/>
+                <StringItem index="436" value=" Trolls"/>
+                <StringItem index="437" value=" Tsunamis"/>
+                <StringItem index="438" value=" Tubar&#xf5;es"/>
+                <StringItem index="439" value=" Turistas"/>
+                <StringItem index="440" value=" UFC"/>
+                <StringItem index="441" value=" Umbanda"/>
+                <StringItem index="442" value=" Universidade"/>
+                <StringItem index="443" value=" Universos Parelelos"/>
+                <StringItem index="444" value=" Urbaniza&#xe7;&#xe3;o"/>
+                <StringItem index="445" value=" Vampiros"/>
+                <StringItem index="446" value=" Vaticano"/>
+                <StringItem index="447" value=" Velhice"/>
+                <StringItem index="448" value=" Vendas"/>
+                <StringItem index="449" value=" Ver&#xe3;o"/>
+                <StringItem index="450" value=" Verdade"/>
+                <StringItem index="451" value=" Vermes"/>
+                <StringItem index="452" value=" Viagem no Tempo"/>
+                <StringItem index="453" value=" Viagens"/>
+                <StringItem index="454" value=" Vida ap&#xf3;s a Morte"/>
+                <StringItem index="455" value=" Vida Marinha"/>
+                <StringItem index="456" value=" Vietn&#xe3;"/>
+                <StringItem index="457" value=" Vigaristas"/>
+                <StringItem index="458" value=" Vingan&#xe7;a"/>
+                <StringItem index="459" value=" Viol&#xea;ncia"/>
+                <StringItem index="460" value=" Viol&#xea;ncia Dom&#xe9;stica"/>
+                <StringItem index="461" value=" V&#xed;rus"/>
+                <StringItem index="462" value=" Vulc&#xf5;es"/>
+                <StringItem index="463" value=" Wall Street"/>
+                <StringItem index="464" value=" Wicca"/>
+                <StringItem index="465" value=" Woodstock"/>
+                <StringItem index="466" value=" X-Men"/>
+                <StringItem index="467" value=" Xadrez"/>
+                <StringItem index="468" value=" Yakuza"/>
+                <StringItem index="469" value=" Yoga"/>
+                <StringItem index="470" value=" Zeus"/>
+                <StringItem index="471" value=" Zumbis"/>
+              </StringArray>
+            </Property>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="190" y="160" width="200" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButtonVoltar">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Images/voltar.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Voltar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonVoltarActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="20" y="590" width="180" height="50"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButtonSalvarFilme">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Images/salvar.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value=" Salvar"/>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonSalvarFilmeActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="660" y="320" width="300" height="50"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Ubuntu" size="18" style="1"/>
+            </Property>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Images/filme 20.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Cadastro de Filme"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="10" y="0" width="260" height="30"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel11">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Ubuntu" size="15" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="80" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Valor Loca&#xe7;&#xe3;o"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="570" y="120" width="-1" height="30"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldValorLocacaoFilme">
+          <Properties>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldValorLocacaoFilmeActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="720" y="120" width="260" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButtonEditaFilme">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Images/configura&#xe7;&#xf5;es.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Editar Filme"/>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonEditaFilmeActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="20" y="470" width="180" height="50"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButtonExcluirFilme">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Images/lixeira.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Excluir Filme"/>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonExcluirFilmeActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="20" y="530" width="180" height="50"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButtonNovoFilme">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Images/adicionar filme 40.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Novo Filme"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonNovoFilmeActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="20" y="410" width="180" height="50"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="250" y="410" width="740" height="230"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="jTableFilmes">
+              <Properties>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="4" rowCount="4">
+                    <Column editable="true" title="Title 1" type="java.lang.Object"/>
+                    <Column editable="true" title="Title 2" type="java.lang.Object"/>
+                    <Column editable="true" title="Title 3" type="java.lang.Object"/>
+                    <Column editable="true" title="Title 4" type="java.lang.Object"/>
+                  </Table>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jTableFilmesMouseClicked"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JTextField" name="jTextFieldPesquisaFilme">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldPesquisaFilmeActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="250" y="370" width="250" height="30"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButtonPesquisarFilme">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Images/buscar20.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value=" Pesquisar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonPesquisarFilmeActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="510" y="370" width="130" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel6">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Ubuntu" size="15" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="80" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Unidades"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="570" y="170" width="70" height="17"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldEstoque">
+          <Properties>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="720" y="160" width="260" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel12">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Ubuntu" size="15" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="80" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="ID"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="30" y="50" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextFieldIDFilme">
+          <Properties>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="190" y="40" width="50" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="com.toedter.calendar.JDateChooser" name="jDateChooserlancamento">
+          <Properties>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="720" y="80" width="260" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelPlanoFundo">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Images/fundo 2.jpg"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="-5" y="34" width="1020" height="640"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
